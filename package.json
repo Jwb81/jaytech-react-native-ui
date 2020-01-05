@@ -1,28 +1,51 @@
 {
   "name": "jaytech-react-native-ui",
-  "version": "1.0.0",
-  "description": "A UI library for React Native projects",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "src/index.js",
+  "version": "0.1.0",
+  "files": [
+    "src/"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jwb81/jaytech-react-native-ui.git"
+    "url": "https://github.com/Jwb81/jaytech-react-native-ui.git"
   },
-  "keywords": [
-    "react",
-    "native",
-    "css",
-    "ui",
-    "styles",
-    "styling",
-    "theme"
-  ],
-  "author": "Jason Barnett",
+  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Jwb81/jaytech-react-native-ui/issues"
   },
-  "homepage": "https://github.com/Jwb81/jaytech-react-native-ui#readme"
+  "keywords": [
+    "android",
+    "ios",
+    "react native",
+    "component library",
+    "ui kit",
+    "bootstrap",
+    "theme",
+    "styling",
+    "css"
+  ],
+  "scripts": {
+    "precommit": "yarn lint",
+    "lint": "eslint src/**.js",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-universe": "^1.0.7",
+    "prettier": "^1.15.1",
+    "prop-types": "^15.6.2",
+    "react": "16.8.3",
+    "react-native": "^0.59",
+    "react-native-vector-icons": "^6.5.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-vector-icons": ">6.0.0"
+  },
+  "eslintConfig": {
+    "extends": "universe/native"
+  }
 }
