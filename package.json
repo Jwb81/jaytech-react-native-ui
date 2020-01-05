@@ -1,0 +1,28 @@
+{
+  "name": "jaytech-react-native-ui",
+  "version": "1.0.0",
+  "description": "A UI library for React Native projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jwb81/jaytech-react-native-ui.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "css",
+    "ui",
+    "styles",
+    "styling",
+    "theme"
+  ],
+  "author": "Jason Barnett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jwb81/jaytech-react-native-ui/issues"
+  },
+  "homepage": "https://github.com/Jwb81/jaytech-react-native-ui#readme"
+}
